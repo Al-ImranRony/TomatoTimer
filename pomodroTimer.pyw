@@ -40,7 +40,7 @@ while True:
         breaks = 0
         for i in range(10):
             winsound.Beep((i+100), 500)
-        response = messagebox.askyesno("Finished Pomodoro !","Would you like start again ?")
+        response = messagebox.askyesno("Finished Pomodoro !","Would you like to start again ?")
         total_poms += 1
         if response == True:
             cur_time = dt.datetime.now()
@@ -48,7 +48,7 @@ while True:
             final_time = cur_time + dt.timedelta(0, pom_time+break_time)
             continue
         elif response == False:
-            messagebox.showinfo("Finished Pomodoro !", "\nYou completed "+str(total_poms)+" pomodoros today !")
+            messagebox.showinfo("Finished Pomodoro !", "\nYou have completed "+str(total_poms)+" pomodoros today !")
             break
     
     print('Sleeping')                                       # To save memory    
