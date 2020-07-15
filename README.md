@@ -7,5 +7,5 @@ to inform you when to take break. If you will not start again after a pomodoro, 
 - You can also add icon to the shortcut to look better - just download an .ico file and change icon on properties of the file.
 - I'm planning to add a todo-list API to this application.
 
-  ⏰©: Thanks to Fidel I. Esquivel for his wonderful article on medium.com about this Pomodoro app
+  ⏰©: Thanks to Fidel I. Esquivel for his wonderful article on medium.com about this Pomodoro timer.
 
